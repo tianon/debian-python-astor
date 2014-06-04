@@ -1,11 +1,12 @@
 Source: python-astor
 Section: python
 Priority: optional
-Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Maintainer: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
 Uploaders: Paul Tagliamonte <paultag@debian.org>,
- Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+ Tianon Gravi <admwiggin@gmail.com>
 Build-Depends: debhelper (>= 9),
- python-all (>= 2.6~),
+ dh-python,
+ python-all (>= 2.6.6-3~),
  python-setuptools,
  python3-all (>= 3.2~),
  python3-setuptools
