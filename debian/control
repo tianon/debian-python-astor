@@ -1,7 +1,7 @@
 Source: python-astor
 Section: python
 Priority: optional
-Maintainer: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Paul Tagliamonte <paultag@debian.org>,
  Tianon Gravi <admwiggin@gmail.com>
 Build-Depends: debhelper (>= 9),
