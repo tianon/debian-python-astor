@@ -7,3 +7,8 @@ export PYBUILD_NAME=astor
 
 override_dh_installchangelogs:
 	dh_installchangelogs CHANGES
+
+override_dh_install:
+	rm -r $(CURDIR)/debian/python*-astor/usr/lib/python*/dist-packages/tests
+	rm -r $(CURDIR)/debian/python*-astor/usr/lib/python*/dist-packages/setuputils*
+	dh_install
